@@ -6,9 +6,8 @@ from tensorflow import keras
 import streamlit as st
 from PIL import Image
 
-# Peak Signal to Noise Ratio function
 
-
+# Additional function Peak Signal to Noise Ratio
 def psnr(orig, pred):
     # cast the target images to integer
     orig = orig * 255.0
@@ -77,7 +76,6 @@ def ShowImages(model, base_img, num=1, one_photo=False):
 model = keras.models.load_model(
     'colorizer_model', custom_objects={"psnr": psnr})
 
-# directory = "../datasets/Colorizer_dataset/test"
 directory = "test_dataset"
 test_files_list = [f for f in os.listdir(directory) if f.endswith(
     ".jpg") or f.endswith(".jpeg") or f.endswith(".png")]
