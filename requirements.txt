@@ -1,18 +1,15 @@
 absl-py==1.4.0
-altair @ file:///home/conda/feedstock_root/build_artifacts/altair_1675180856922/work
 anyio==3.6.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 arrow==1.2.3
 asttokens==2.2.1
 astunparse==1.6.3
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1671632566681/work
 autopep8==2.0.1
 backcall==0.2.0
 beautifulsoup4==4.11.2
 bleach==6.0.0
 blinker==1.5
-Bottleneck @ file:///opt/conda/conda-bld/bottleneck_1657175564434/work
 cachetools==5.3.0
 certifi==2022.12.7
 cffi==1.15.1
@@ -24,7 +21,6 @@ cycler==0.11.0
 debugpy==1.6.6
 decorator==5.1.1
 defusedxml==0.7.1
-entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1643888246732/work
 executing==1.2.0
 fastjsonschema==2.16.2
 flatbuffers==23.1.21
@@ -40,17 +36,13 @@ grpcio==1.51.1
 h5py==3.8.0
 idna==3.4
 imageio==2.25.0
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1672612343532/work
-importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1672681417544/work
 ipykernel==6.21.1
 ipython==8.9.0
 ipython-genutils==0.2.0
 isoduration==20.11.0
 jedi==0.18.2
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1654302431367/work
 joblib==1.2.0
 jsonpointer==2.3
-jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema-meta_1669810440410/work
 jupyter-contrib-core==0.4.2
 jupyter-contrib-nbextensions==0.7.0
 jupyter-events==0.6.3
@@ -73,7 +65,6 @@ matplotlib-inline==0.1.6
 mdurl==0.1.2
 mistune==2.0.5
 mkl-fft==1.3.1
-mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
 mkl-service==2.4.0
 nbclassic==0.5.1
 nbclient==0.7.2
@@ -83,7 +74,6 @@ nest-asyncio==1.5.6
 networkx==3.0
 notebook==6.5.2
 notebook_shim==0.2.2
-numexpr @ file:///croot/numexpr_1668713893690/work
 numpy==1.24.1
 oauthlib==3.2.2
 opencv-python==4.7.0.68
@@ -95,7 +85,6 @@ parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.4.0
-pkgutil_resolve_name @ file:///home/conda/feedstock_root/build_artifacts/pkgutil-resolve-name_1633981968097/work
 platformdirs==3.0.0
 plotly==5.13.0
 prometheus-client==0.16.0
@@ -114,7 +103,6 @@ Pygments==2.14.0
 Pympler==1.0.1
 pyparsing==3.0.9
 pyrsistent==0.19.3
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 python-json-logger==2.0.4
 pytz==2022.7.1
 pytz-deprecation-shim==0.1.0.post0
@@ -133,7 +121,6 @@ scipy==1.10.0
 seaborn==0.12.2
 semver==2.13.0
 Send2Trash==1.8.0
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 smmap==5.0.0
 sniffio==1.3.0
 soupsieve==2.3.2.post1
@@ -153,16 +140,13 @@ tifffile==2023.2.3
 tinycss2==1.2.1
 toml==0.10.2
 tomli==2.0.1
-toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1657485559105/work
 tornado==6.2
 traitlets==5.9.0
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1665144421445/work
 tzdata==2022.7
 tzlocal==4.2
 uri-template==1.2.0
 urllib3==1.26.14
 validators==0.20.0
-vega-datasets @ file:///home/conda/feedstock_root/build_artifacts/vega_datasets_1606414058616/work
 watchdog==2.2.1
 wcwidth==0.2.6
 webcolors==1.12
@@ -171,4 +155,3 @@ websocket-client==1.5.1
 Werkzeug==2.2.2
 wrapt==1.14.1
 yapf==0.32.0
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1676708471276/work
