@@ -20,6 +20,10 @@ def psnr(orig, pred):
     # return the psnr
     return tf.image.psnr(orig, pred, max_val=255)
 
+@st.cache_resource
+def load_model():
+	  return keras.models.load_model('colorizer_model', custom_objects={"psnr": psnr})
+
 
 def ShowPhoto(model, src_img, one_photo):
     input_size = 128
@@ -73,8 +77,7 @@ def ShowImages(model, base_img, num=1, one_photo=False):
         ShowPhoto(model, base_img, one_photo)
 
 
-model = keras.models.load_model(
-    'colorizer_model', custom_objects={"psnr": psnr})
+model = load_model()
 
 directory = "test_dataset"
 test_files_list = [f for f in os.listdir(directory) if f.endswith(
