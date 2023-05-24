@@ -88,7 +88,7 @@ platformdirs==3.0.0
 plotly==5.13.0
 prometheus-client==0.16.0
 prompt-toolkit==3.0.36
-protobuf==3.19.6
+protobuf
 psutil==5.9.4
 ptyprocess==0.7.0
 pure-eval==0.2.2
@@ -126,7 +126,7 @@ soupsieve==2.3.2.post1
 stack-data==0.6.2
 streamlit==1.18.1
 tenacity==8.2.1
-tensorboard==2.11.2
+tensorboard==2.12.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.12.0
